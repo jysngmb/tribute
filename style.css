@@ -1,0 +1,116 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family:'Times New Roman', Times, serif;
+    font-size: 1.2rem;
+}
+
+h1{
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    letter-spacing: 1px;
+    padding-bottom: 5px;
+}
+
+#main{
+    text-align: center;
+    background-color:rgb(227, 227, 227)
+}
+
+#image{
+    max-width: 100%;
+    height: 10.5rem;
+}
+
+#image-div{
+    text-align: center;
+    padding: 15px;
+    filter: drop-shadow(0 0 5px black);
+}
+
+#description{
+    font-family:'Times New Roman', Times, serif;
+    font-size: 1rem;
+    text-align: center;
+}
+
+h4{
+    text-align: left;
+    padding: 10px;
+}
+
+ul{
+    max-width: 90%;
+    text-align: left;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#container {
+    background-color:rgb(227, 227, 227);
+}
+
+#moreinfo {
+    text-align: center;
+}
+
+
+
+/* Media Queries */
+
+@media screen and (max-width: 992px) {
+    body {
+      font-size: 1rem;
+    }
+  }
+  
+  @media screen and (max-width: 768px) {
+    body {
+      font-size: 1rem;
+    }
+  
+    ul {
+      max-width: 550px;
+    }
+  
+    #moreinfo,
+    li {
+      margin: 15px 0;
+      padding: 0 15px;
+    }
+  }
+  
+  @media screen and (max-width: 576px) {
+    body {
+      font-size: 1rem;
+    }
+  
+    ul {
+      max-width: 400px;
+    }
+  
+    #moreinfo,
+    li {
+      margin: 15px 0;
+      padding: 0 15px;
+    }
+  }
+  
+  @media screen and (max-width: 480px) {
+    body {
+      font-size: 0.9rem;
+    }
+  
+    ul {
+      max-width: 300px;
+    }
+  
+    #moreinfo,
+    li {
+      margin: 10px 0;
+      padding: 0 10px;
+    }
+  }
